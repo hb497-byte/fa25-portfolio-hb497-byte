@@ -1,3 +1,4 @@
+---
 layout: project
 title: Actuator Design
 description: Statics Class Project
