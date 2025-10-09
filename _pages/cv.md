@@ -8,23 +8,23 @@ permalink: /cv/
 [Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [hb497@cornell.edu](mailto:hb497@cornell.edu) | | | **Phone:** +617 893 4643
 
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+Aspiring engineering student with a strong foundation in mathematics and physics. Passionate about sustainability in the field of engineering and eager to apply my knowledge in real-world applications.
 
 ---
 
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  GPA: 3.723/4.0 | Graduation: May, 2028
 
-- **[High School Name]**  
+- **Winsor School**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: May, 2024
 
 ---
 
@@ -36,35 +36,30 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 ---
 
 #### Projects
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
-
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+- **Actuator Design**:  
+  *In this project, I designed a mechanical lifting system within a defined 2D workspace measuring 150 cm in length and 50 cm in height. The goal was to maximize both the lifted weight and the achievable height of lift using only rigid components: a fixed-length bar, three pin supports (two of which were grounded), and a linear actuator selected from an online catalog based on its maximum force rating.*   
 
 ---
 
 #### Work Experience
-- **[Company Name] - Intern**  
-  [Month, Year] - [Month, Year]  
-  - Responsibility 1  
-  - Responsibility 2  
+- **Robot Locomotion and Biomechanics Laboratory, Tufts University - Intern**  
+  June, 2023 - August, 2023  
+  - Refined design of swarm robots and tested their ability to overcome obstacles
+  - 3D-printed shells for the robots and altered dimensions to enhance their performance
+  - Compiled research in a poster and presented to school community
+  
 
 ---
 
 #### Achievements & Certifications
-- [Certification Name], [Issuing Organization], [Year]  
-- [Achievement Name], [Competition/Event], [Year]  
+- U.S. Presidential Scholars Program Candidate, 2024  
+- AP Scholar with Honor, 2024
+- National Merit Commended Scholar, 2023  
 
 ---
 
 #### Extracurricular Activities
-- Member of [Club/Organization Name]  
-- Volunteer for [Event/Organization Name]  
+- Member of Cornell University Sustainable Design, Sustainability Mobility Subteam  
 
 ---
 
