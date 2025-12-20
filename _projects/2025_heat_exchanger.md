@@ -3,7 +3,7 @@ layout: project
 title: Heat Exchanger Analysis
 description: Thermodynamics Class Project
 technologies: []
-image: /assets/images/thermo_portfolio.jpg
+image: "{{ site.baseurl }}/assets/images/thermo_portfolio.jpg"
 ---
 
 
