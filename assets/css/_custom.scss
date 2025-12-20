@@ -1,7 +1,8 @@
 .project-image {
+  height: auto !important;
   width: 100%;
-  max-width: 1200px;   /* controls how big the image can get */
-  height: auto;
-  display: block;
+  max-width: 1200px;
+  object-fit: contain !important;
   margin: 2rem auto;
+  display: block;
 }
