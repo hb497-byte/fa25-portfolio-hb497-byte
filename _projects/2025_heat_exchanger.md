@@ -5,15 +5,15 @@ description: Thermodynamics Class Project
 technologies: []
 image: /assets/images/thermo-portfolio.jpg
 ---
-<img src="/fa25-portfolio-hb497-byte/assets/images/thermo-portfolio.jpg"
+<img src="{{ '/assets/images/thermo1.JPG' | relative_url }}"
      alt="Heat exchanger sketch"
      class="small-img">
 
-<img src="/fa25-portfolio-hb497-byte/assets/images/thermo1.JPG"
+<img src="{{ '/assets/images/thermo-portfolio.jpg' | relative_url }}"
      alt="Heat exchanger sketch"
      class="small-img">
 
-<img src="/fa25-portfolio-hb497-byte/assets/images/thermo2.png"
+<img src="{{ '/assets/images/thermo2.png' | relative_url }}"
      alt="Heat exchanger sketch"
      class="small-img">
      
