@@ -5,9 +5,8 @@ description: Thermodynamics Class Project
 technologies: []
 image: /assets/images/thermo-portfolio.jpg
 ---
-
 ![Calculations](/fa25-portfolio-hb497-byte/assets/images/thermo-portfolio.jpg)
-
+![Setup](/fa25-portfolio-hb497-byte/assets/images/thermo2.png)
 
 This experiment focused on a heat exchanger device, analyzing its efficiency in heat transfer and comparing parallel flow and counterflow configurations. The experimental apparatus was a metal water-to-water heat exchanger containing four plastic tubes arranged to form two separate internal flow paths, with no direct contact between the two streams. Heated orange water flowed through one channel, while the other channel transported cooled blue water. Four external reservoirs were used in the setup: one insulated with Styrofoam and filled with ice to maintain a cold supply, another equipped with an immersion heater to provide hot water, and two additional empty tanks that collected the outlet flows.
 
