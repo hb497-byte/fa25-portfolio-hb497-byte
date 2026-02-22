@@ -11,4 +11,5 @@ In this project, I worked in a group with 4 peers to create a client outline and
 
 <img src="{{ '/assets/images/pitch.JPG' | relative_url }}"
      alt="Pitch"
-     class="medium-img">
+     class="medium-img"
+     style="width: 400px;">
