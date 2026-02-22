@@ -3,7 +3,7 @@ layout: project
 title: Spotted Lanternfly Grape Harvest Contamination Pitch
 description: Introduction to Mechanical Design Class Project
 technologies: [SolidWorks, Machining]
-image: "{{ '/assets/images/SLFdesign.JPG' | relative_url }}"
+image: "{{ '/assets/images/SLFdesign.png' | relative_url }}"
 ---
 
 
