@@ -84,6 +84,6 @@ Prototype schematic of the proposed buoyancy-based spotted lanternfly filter (se
 
 [1] Bekelja, K. and Russo, J. “MAE 2250 - Spotted Lanternfly Presentation,” Cornell IPM and New York State Integrated Pest Management, 2026.
 
-![Prototype schematic](/fa25-portfolio-hb497-byte/assets/images/SLFdesign.png)
+![Prototype schematic]({{ site.baseurl }}/assets/images/pitch.png)
 
 *Figure 1: Prototype schematic of the proposed buoyancy-based spotted lanternfly filter.*
