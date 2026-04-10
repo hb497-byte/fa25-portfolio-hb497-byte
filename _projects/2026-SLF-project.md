@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Spotted Lanternfly Project
+title: Harvest Contamination
 description: Introduction to Mechanical Design Project
 technologies: [Autodesk Fusion, Machining]
 image: /assets/images/pitch.png
