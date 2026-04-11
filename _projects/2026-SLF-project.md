@@ -75,7 +75,7 @@ We propose to use water to separate grapes from SLF based on density (grapes sin
 
 The main function of the prototype is when the handle is rotated, the base rotates beneath. The handle is threaded onto the shaft, and the bearing supports the shaft radially. The base is press-fit to the shaft through a milled hex connection. The modified cylinder (“housing”) remains fixed during this rotation process, allowing for the grape juice and excess water to be filtered accordingly as the base rotates. 
 
-![Prototype schematic]({{ site.baseurl }}/assets/images/prototype.HEIC)
+![Prototype schematic]({{ site.baseurl }}/assets/images/prototype.png)
 
 *Figure 1: Assembled prototype of the SLF filter.*
 
