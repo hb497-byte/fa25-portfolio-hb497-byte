@@ -82,7 +82,7 @@ The main function of the prototype is when the handle is rotated, the base rotat
 
 ### What was tested
 
-Rotation test:
+ROTATION TEST
 
 This test was meant to assess the ability of the handle, shaft, and base components to rotate freely beneath the divider of the cylinder. It was performed by rotating the shaft using the handle and observing the smoothness and ease of motion of the base. Success criteria for this test was that the base would be able to be rotated using a non-strenuous amount of force from a human hand at the handle, and that the mesh would not noticeably interfere with the dividers upon rotation. 
 
@@ -91,7 +91,8 @@ The results of this test were informative. First, we observed smooth rotation of
 For the next iteration, to resolve this, we plan to create an indentation in the base for the mesh to rest within, allowing the top of the mesh to sit at the same height as the rest of the base and pass under the divider without impeding rotation. 
 
 
-Water retention test:
+
+WATER RETENTION TEST
 
 This test was meant to check the seal and water retention of the cylinder and base. It was performed by filling the cylinder with water for 15 minutes and observing leaks in the points of connection in the cylinder.
 
@@ -100,7 +101,8 @@ The results of this test were also informative. The test showed us that the prot
 We plan to resolve this issue by better developing a seal system between the dividers and the base. Specifically, we will purchase rubber flaps from McMaster to attach to the bottoms of the dividers, sealing the gap and reducing leakage.  
 
 
-Weight test:
+
+WEIGHT TEST
 
 This test was performed to test the strength of our base, cylinder, and rotation system in functioning under increased loads. It was performed by adding weights to the base in ~550g increments and 1) observing any physical deformation in our design, and 2) rotating the handle and making note of ease of rotation. 
 
