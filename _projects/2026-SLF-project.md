@@ -77,7 +77,7 @@ The main function of the prototype is when the handle is rotated, the base rotat
 
 ![Prototype schematic]({{ site.baseurl }}/assets/images/prototype.png)
 
-*Figure 1: Assembled prototype of the SLF filter."*
+*Figure 1: Assembled prototype of the SLF filter.*
 
 ### What was tested
 
