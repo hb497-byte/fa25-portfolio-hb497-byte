@@ -63,7 +63,8 @@ We propose to use water to separate grapes from SLF based on density (grapes sin
 1. How crushed are SLF after the grapes have been harvested? Are they mostly intact or are they often split into small pieces such as legs and wing fragments?  
 2. Our idea is based on the assumption that SLF float in water and grapes sink. Is this generally true, and is the density of SLF approximately the same across all of their body parts?  
 3. What is a typical grape/grape juice ratio after the grapes become crushed post-harvest?  
-![Pitch schematic]({{ site.baseurl }}/assets/images/pitch.png)
+![Pitch schematic]({{ site.baseurl }}/assets/images/pitch.png){:width="400px"}
+
 
 *Figure 1: Prototype schematic of the proposed buoyancy-based spotted lanternfly filter.*
 
