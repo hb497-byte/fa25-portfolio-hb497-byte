@@ -1,11 +1,3 @@
----
-layout: project
-title: Harvest Contamination
-description: Introduction to Mechanical Design Project
-technologies: [Autodesk Fusion, Machining]
-image: /assets/images/pitch.png
----
-
 ## Table of Contents
 - [Client Pitch](#client-pitch)
 - [Functional Prototype](#functional-prototype)
