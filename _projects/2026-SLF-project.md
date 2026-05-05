@@ -9,6 +9,7 @@ image: /assets/images/pitch.png
 ## Table of Contents
 - [Client Pitch](#client-pitch)
 - [Functional Prototype](#functional-prototype)
+- [Client Report](#client-report)
 
 ---
 
@@ -109,6 +110,80 @@ This test was performed to test the strength of our base, cylinder, and rotation
 The test provided valuable insight as to how our design functions under increased loads. First, we noticed that as weight was added, the gap between the base and the dividers marginally increased, lowering friction and making rotation occur more smoothly (but also implying increased water leakage). Second, we noticed that if our design is used in such a way where only one out of three sections is filled with mixture at a given time, this unevenly distributed weight will cause the base to tilt down at an angle, greatly inhibiting water retention and structural integrity. Last, we noticed that the numeric limit to functionality of rotation of our cylinder fell at approximately 2.0 kg – any weight beyond this caused greatly angled deflection of the base. 
 
 These results have important design implications. The first observation, regarding the widening gap between the dividers and the base, indicated that a support system beneath the base is quite necessary — the shaft collar and press fit between the shaft and base is not sufficient to vertically support the load. This was not a surprise or concern, as our design already accounts for placing bolts under the base — we were just not able to incorporate them into this prototype due to tolerancing issues. The second observation will ideally also be resolved by this solution, as the vertical support provided by the bolts will prevent the observed angled deflection. However, we also plan to explore optimizing our design so that two out of three sections can be filled and filtered simultaneously — which would not only increase efficiency, but help limit the observed angled deflection due to more even distribution of loading.
+
+---
+
+## Client Report
+
+### Grape Harvest Integrated Filtration System
+
+Spotted lanternflies (SLF) damage grape vines and end up in the harvested grape and juice mixture. More than 0.1% foreign matter in harvested grape batches results in entire 22-ton batches of harvest being rejected per FDA regulation [1]. Contamination is tested in 1000g samples, and SLF weigh 0.5–1.0g each, meaning that the presence of just 1–2 bugs in a batch can be detrimental [1]. Ultimately, the rejection of grape harvest batches due to foreign matter presence decreases New York state vineyard profits by millions of dollars per year. 
+
+Trees of Doom has developed a small-scale mechanical filter to remove SLF from harvested mixture post-harvest. Unlike preventative methods, removal at this stage ensures that SLF are removed for good. Our prototype allows the user to strain out the juice from harvest and then use water density separation to isolate and remove SLF from solid mass. The design requires no electrical power and features food-safe bearings and a robust design, making it cheap and durable.  
+
+We conducted a variety of tests to assess the viability of our prototype for continued development. Our verdict is that the fundamental mechanism of our design functions as intended; however, limits on scalability make it best suited for use on small-scale organic vineyards and empirical testing should still be conducted with real grapes and SLF to validate effectiveness.
+
+---
+
+## Final Prototype and Application
+
+Our final prototype is shown below:
+
+*Figure 1: Final prototype.*
+
+The harvested grape juice, grapes, and SLF mixture can be poured into one of the tri-sections of the cylinder, and the base is rotated in a sequence such that the three mixture components can be separated. First, the grape juice is filtered out as the mixture is poured over the mesh base section. Then, SLF and grapes are separated with the addition of water, as SLF float while grapes sink. Finally, the water is filtered out and the untarnished grapes are collected.
+
+---
+
+## Testing and Results
+
+The steps for the assembly of our final prototype are detailed below:
+
+1. Machine the shaft to create a hex on one end and threading on the other.  
+2. 3D print the base and cylinder out of PLA.  
+3. Cut mesh to the size of the base piece’s mesh indent. Secure with epoxy.  
+4. Press-fit the shaft into the base and bearings into the cylinder.  
+5. Cut and stretch the o-ring around the base. Cut and insert rubber flaps into cylinder.  
+6. Assemble shaft + base with cylinder and secure with shaft collars. Screw handle on top.  
+7. Support the base from below by inserting bolts and bearings through the cylinder bolt holes.  
+
+---
+
+### Success Criteria
+
+• One standard load of harvested grape mixture (1 ton for small-scale vineyard, 22 tons for large-scale) should be fully filtered within 3 minutes for efficient processing.  
+• Particles with a density of 500 kg/m³ (SLF) should float to the top of the cylinder for removal, while particles with a density of 1100 kg/m³ (grapes) should sink.  
+• Water retention should be sufficient such that per cycle, water need only be added once.  
+
+---
+
+### Testing Summary
+
+Three mechanical tests were used to roughly evaluate our success criteria for our small-scale prototype: a rotation test, a water retention test, and a weight test. These tests were repeated with each improved prototype. The rotation test was a subjective evaluation of the ease of rotation of the base. The water retention test was a measurement of how long it took the solid base section to drain all water, and whether clay “grapes” could be separated from foam “SLF.” The weight test was a measurement of the maximum weight supported by the base while still allowing rotation without excess deflection. 
+
+---
+
+### Prototype Comparison
+
+| Prototype | Rotation | Water Retention | Max. Weight |
+|----------|--------|----------------|------------|
+| Prototype 1 | Easy | 10 sec | 2 kg |
+| Prototype 2 | Difficult | 52 sec | 2 kg |
+| Final Prototype | Moderate | 64 sec | 8 kg |
+
+---
+
+## Conclusion and Recommendation
+
+Based on our prototyping and testing, we conclude that filtering grapes and SLF based on density is feasible, but further research is needed to assess the reliability of the density difference and to refine the success criterion for particle separation. Additionally, real-world implementation would likely be limited in scale and impractical for large commercial harvesting applications.  
+
+However, a moderately scaled-up version of the prototype may be useful for small-batch vineyards. At this scale, grape batches weigh approximately 1 ton, occupying roughly 1 m³, and would require a cylinder of 2 m height and 0.4 m radius. In this case, a torque of ∼600 N·m would be required to rotate the device at a constant rate. At 3 RPM (minimum speed to process a 1-ton load within 3 minutes), this corresponds to ∼188 W—an achievable power output for a single human. 
+
+Thus, the power required for the device’s operation at the small-batch vineyards is well within a human’s comfortable output. It would also align with the produced-by-hand ethos of small-batch vineyards. Moreover, the device is cost-effective, with an estimated scaled cost of under $1000.  
+
+For larger vineyards, however, several scaling challenges arise. The increased harvest loads (approximately 22 tons) would require powered operation, structural redesign, and may prevent effective density separation.  
+
+Thus, we recommend limiting implementation to small-scale vineyards and suggest further research into sealing methods and density separation reliability.  
 
 ---
 
