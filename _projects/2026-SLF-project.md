@@ -79,7 +79,7 @@ The main function of the prototype is when the handle is rotated, the base rotat
 
 ![Prototype schematic]({{ site.baseurl }}/assets/images/prototype.png){:width="400px"}
 
-*Figure 1: Assembled prototype of the SLF filter.*
+*Figure 2: Assembled prototype of the SLF filter.*
 
 ### What was tested
 
@@ -129,7 +129,7 @@ We conducted a variety of tests to assess the viability of our prototype for con
 
 Our final prototype is shown below:
 
-*Figure 1: Final prototype.*
+*Figure 3: Final prototype.*
 
 The harvested grape juice, grapes, and SLF mixture can be poured into one of the tri-sections of the cylinder, and the base is rotated in a sequence such that the three mixture components can be separated. First, the grape juice is filtered out as the mixture is poured over the mesh base section. Then, SLF and grapes are separated with the addition of water, as SLF float while grapes sink. Finally, the water is filtered out and the untarnished grapes are collected.
 
