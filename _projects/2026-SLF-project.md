@@ -127,7 +127,7 @@ Our final prototype is shown below:
 
 The harvested grape juice, grapes, and SLF mixture can be poured into one of the tri-sections of the cylinder, and the base is rotated in a sequence such that the three mixture components can be separated. First, the grape juice is filtered out as the mixture is poured over the mesh base section. Then, SLF and grapes are separated with the addition of water, as SLF float while grapes sink. Finally, the water is filtered out and the untarnished grapes are collected.
 
-![Use sequence]({{ site.baseurl }}/assets/images/p2.png){:width="400px"}
+![Use sequence]({{ site.baseurl }}/assets/images/p2.png){:width="600px"}
 
 *Figure 4: Use sequence.*
 
@@ -169,7 +169,7 @@ rubber divider flaps for sealing, but was load-limited due to the base being hel
 pressfit. Our final design accounted for all of these design challenges with a tri-sector design, o-ring
 and rubber flaps, and additional bearing and shaft collar supports for the base.
 
-![Improvements]({{ site.baseurl }}/assets/images/p3.png){:width="400px"}
+![Improvements]({{ site.baseurl }}/assets/images/p3.png){:width="600px"}
 
 *Figure 6: Prototype improvements: o-ring, rubber divider flaps, and base support.*
 
