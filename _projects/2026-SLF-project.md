@@ -129,13 +129,13 @@ We conducted a variety of tests to assess the viability of our prototype for con
 
 Our final prototype is shown below:
 
-![Final prototype]({{ site.baseurl }}/assets/images/final_prototype.png){:width="400px"}
+![Final prototype]({{ site.baseurl }}/assets/images/p1.png){:width="400px"}
 
 *Figure 3: Final prototype.*
 
 The harvested grape juice, grapes, and SLF mixture can be poured into one of the tri-sections of the cylinder, and the base is rotated in a sequence such that the three mixture components can be separated. First, the grape juice is filtered out as the mixture is poured over the mesh base section. Then, SLF and grapes are separated with the addition of water, as SLF float while grapes sink. Finally, the water is filtered out and the untarnished grapes are collected.
 
-![Use sequence]({{ site.baseurl }}/assets/images/use_sequence.png){:width="400px"}
+![Use sequence]({{ site.baseurl }}/assets/images/p2.png){:width="400px"}
 
 *Figure 4: Use sequence.*
 
@@ -167,7 +167,7 @@ The steps for the assembly of our final prototype are detailed below:
 
 Three mechanical tests were used to roughly evaluate our success criteria for our small-scale prototype: a rotation test, a water retention test, and a weight test. These tests were repeated with each improved prototype. The rotation test was a subjective evaluation of the ease of rotation of the base. The water retention test was a measurement of how long it took the solid base section to drain all water, and whether clay “grapes” could be separated from foam “SLF.” The weight test was a measurement of the maximum weight supported by the base while still allowing rotation without excess deflection. 
 
-![Water retention test]({{ site.baseurl }}/assets/images/water_retention.png){:width="400px"}
+![Water retention test]({{ site.baseurl }}/assets/images/water_test.png){:width="400px"}
 
 *Figure 5: Water retention test. Blue clay = grape density & white styrofoam = SLF density.*
 
@@ -177,7 +177,7 @@ rubber divider flaps for sealing, but was load-limited due to the base being hel
 pressfit. Our final design accounted for all of these design challenges with a tri-sector design, o-ring
 and rubber flaps, and additional bearing and shaft collar supports for the base.
 
-![Improvements]({{ site.baseurl }}/assets/images/improvements.png){:width="400px"}
+![Improvements]({{ site.baseurl }}/assets/images/p3.png){:width="400px"}
 
 *Figure 6: Prototype improvements: o-ring, rubber divider flaps, and base support.*
 
