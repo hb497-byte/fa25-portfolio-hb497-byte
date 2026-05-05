@@ -201,53 +201,6 @@ Based on our prototyping and testing, we conclude that filtering grapes and SLF 
 
 However, a moderately scaled-up version of the prototype may be useful for small-batch vineyards. At this scale, grape batches weigh approximately 1 ton, occupying roughly 1 m³, and would require a cylinder of 2 m height and 0.4 m radius. In this case, a torque of ∼600 N·m would be required to rotate the device at a constant rate. At 3 RPM (minimum speed to process a 1-ton load within 3 minutes), this corresponds to ∼188 W—an achievable power output for a single human.
 
-## Torque and Power Analysis
-
-**Geometry:**  
-\( 1\,\text{m}^3 = \pi r^2 h \;\Rightarrow\; r = 0.4\,\text{m},\; h = 2\,\text{m} \)
-
-**Torque due to friction:**  
-\( T_{\text{total}} = T_{\text{sides}} + T_{\text{base}} \)
-
-**Side-seal friction** *(nitrile O-ring: \( \mu \approx 0.3 \), \( E \approx 8\,\text{MPa} \))*:
-
-\[
-T_{\text{sides}} = \mu F_{N,\text{seal}} r 
-= \mu \cdot (\sim 400\,\text{N/m}) \cdot (2\pi r) \cdot r
-\]
-
-\[
-= 0.3 \times (400\,\text{N/m}) \times (2 \times 0.4\,\text{m}) \times 0.4\,\text{m}
-\approx \boxed{120\,\text{N·m}}
-\]
-
-**Base-support friction** *(metal–metal: \( \mu \approx 0.3 \), 4 supports)*:
-
-\[
-T_{\text{base}} = 4 \mu F_{N,\text{base}} r 
-= 4 \times 0.3 \times \rho_w V g \times r
-\]
-
-\[
-= 4 \times 0.3 \times (997\,\text{kg/m}^3)(1\,\text{m}^3)(9.81\,\text{m/s}^2)(0.4\,\text{m})
-\approx \boxed{478\,\text{N·m}}
-\]
-
-**Total torque:**
-
-\[
-T_{\text{total}} = 120 + 478 \approx \boxed{600\,\text{N·m}}
-\]
-
-**Power at \( 3\,\text{RPM} \)**  
-(\( = 20\,\text{s/rev} \), \( \sim 7\,\text{s/section} \)):
-
-\[
-P = T_{\text{total}} \cdot \omega 
-= 600\,\text{N·m} \times \frac{2\pi \times 3}{60}\,\text{rad/s}
-\approx \boxed{188\,\text{W}}
-\]
-
 Thus, the power required for the device’s operation at the small-batch vineyards is well within a human’s comfortable output. It would also align with the produced-by-hand ethos of small-batch vineyards. Moreover, the device is cost-effective, with an estimated scaled cost of under $1000.  
 
 For larger vineyards, however, several scaling challenges arise. The increased harvest loads (approximately 22 tons) would require powered operation, structural redesign, and may prevent effective density separation.  
