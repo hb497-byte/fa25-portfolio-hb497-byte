@@ -16,8 +16,7 @@ $text-color: #333;
   $primary-color: #925959;
   $background-color: #f6f1e0;
   $text-color: #1e0101;
-}
-
+} 
 
 .navbar, h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
@@ -131,7 +130,6 @@ footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
 .gallery-container {
   display: flex;
   justify-content: center;
@@ -148,28 +146,43 @@ footer {
 }
 
 .gallery-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   overflow: visible;
   text-align: center;
   transition: transform 0.3s ease;
   max-width: 250px;
+  max-height: none;
+}
+
+.gallery-item > a {
+  display: block;
+  width: 100%;
 }
 
 .gallery-item img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 1 / 1;
   display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
 }
 
-.gallery-item p {
+.gallery-title {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
   margin: 13px 0;
-  font-size: .9rem;
   color: $text-color;
+  font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
 }
 
 .gallery-item a {
@@ -199,5 +212,3 @@ footer {
   color: #3a3f58;
   transform: translateX(-4px);
 }
-
-
